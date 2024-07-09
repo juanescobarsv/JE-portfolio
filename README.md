@@ -1,3 +1,7 @@
+# Greetings from Juan Escobar!
+
+This website is a personal portfolio website as a Front-end Web Developer.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
