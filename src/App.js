@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowseRouter as Router, Routes, Route} from "react-router-dom";
+import Nav from "./nav/Nav.js";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <FontAwesomeIcon icon="fa-solid fa-layer-group" style={{color: "#ffffff",}} />
+      <FontAwesomeIcon icon="fa-solid fa-layer-group" style={{color: "#74C0FC",}} />
+    </>
   );
 }
 
