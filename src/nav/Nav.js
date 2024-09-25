@@ -1,9 +1,13 @@
 import React, { Component } from "react";
 import { Link, useLocation } from "react-router-dom";
-import astronautHelmet from "../assets/stock/astronaut-helmet.png";
-import deadEye from "../assets/stock/dead-eye.png";
-import stack from "../assets/stock/stack.png";
-import envelope from "../assets/stock/envelope.png";
+import aboutImg from "../assets/shield-solid2.png";
+import skillsImg from "../assets/rocket-solid2.png";
+import projectsImg from "../assets/folder-open-solid2.png";
+import contactImg from "../assets/comment-solid2.png";
+// import aboutImg from "../assets/stock/astronaut-helmet.png";
+// import skillsImg from "../assets/stock/dead-eye.png";
+// import projectsImg from "../assets/stock/stack.png";
+// import contactImg from "../assets/stock/envelope.png";
 
 import "../styles/nav.css";
 
@@ -61,15 +65,10 @@ export default function Nav() {
 
   return (
     <nav className={`nav ${navPositionClass}`}>
-      {renderNavLink(
-        "/",
-        astronautHelmet,
-        "astronaut helmet icon",
-        "nav-about"
-      )}
-      {renderNavLink("/skills", deadEye, "dead eye icon", "nav-skills")}
-      {renderNavLink("/projects", stack, "stack icon", "nav-projects")}
-      {renderNavLink("/contact", envelope, "envelope icon", "nav-contact")}
+      {renderNavLink("/", aboutImg, "About Me icon", "nav-about")}
+      {renderNavLink("/skills", skillsImg, "Skills icon", "nav-skills")}
+      {renderNavLink("/projects", projectsImg, "Projects icon", "nav-projects")}
+      {renderNavLink("/contact", contactImg, "Contact Me icon", "nav-contact")}
     </nav>
   );
 }

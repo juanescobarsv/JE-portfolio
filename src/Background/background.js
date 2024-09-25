@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/background.css";
-import video from "../assets/stock/bg-universe.mp4";
-import fallbackImage from "../assets/stock/fallback-image.png";
+import video from "../assets/Neon_lines.mp4";
+import fallbackImage from "../assets/fallback-image.png";
 
 const Background = () => {
   return (
