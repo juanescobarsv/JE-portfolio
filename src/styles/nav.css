@@ -3,25 +3,26 @@
   display: flex;
   align-items: flex-start;
   top: 3rem;
-  gap: 2rem;
-  left: 33%;
+  gap: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/* .nav-about {
-  transform: translateX(-0%);
+.nav-about {
+  transform: translateX(-10%);
 }
 
 .nav-skills {
-  transform: translateX(-6.25rem);
+  transform: translateX(-40%);
 }
 
 .nav-projects {
-  transform: translateX(-10.95rem);
+  transform: translateX(-60%);
 }
 
 .nav-contact {
-  transform: translateX(-15.65rem);
-} */
+  transform: translateX(-80%);
+}
 
 a {
   /* width: 3.5rem; */
@@ -29,7 +30,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.3rem;
+  gap: 1rem;
 }
 
 .page-title {
@@ -60,9 +61,9 @@ a {
   }
   .nav {
     top: calc(100vh - 8rem);
-    right: auto;
-    transform: translateX(-20%);
+    transform: translateX(-50%);
   }
+
   .nav-link {
     width: 3rem;
   }

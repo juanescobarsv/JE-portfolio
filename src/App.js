@@ -7,6 +7,7 @@ import Projects from "./Projects/projects.js";
 import Contact from "./Contact/contact.js";
 import "./styles/app.css";
 import Background from "./Background/background.js";
+import CV from "./CV/cv.js";
 
 // import { library } from "@fortawesome/fontawesome-svg-core";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <CV />
     </Router>
   );
 };
