@@ -1,17 +1,31 @@
 import React from "react";
-import {BrowseRouter as Router, Routes, Route} from "react-router-dom";
-import Nav from "./nav/Nav.js";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "./nav/nav.js";
+import About from "./About/about.js";
+import Skills from "./Skills/skills.js";
+import Projects from "./Projects/projects.js";
+import Contact from "./Contact/contact.js";
+import "./styles/app.css";
+import Background from "./Background/background.js";
+import CV from "./CV/cv.js";
+
+// import { library } from "@fortawesome/fontawesome-svg-core";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Nav />
-      <FontAwesomeIcon icon="fa-solid fa-layer-group" style={{color: "#ffffff",}} />
-      <FontAwesomeIcon icon="fa-solid fa-layer-group" style={{color: "#74C0FC",}} />
-    </>
+      <Background />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <CV />
+    </Router>
   );
-}
+};
 
 export default App;
