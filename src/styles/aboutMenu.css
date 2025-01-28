@@ -1,1 +1,40 @@
-CSS here
+.menu {
+  width: 20rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 60%;
+  transform: translateY(-60%);
+  left: 10vw;
+}
+
+.item {
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1rem;
+  padding-right: 2.5rem;
+}
+
+.item.active .title {
+  font-size: 1.5rem;
+}
+
+.sub-container {
+  width: 20rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 35%;
+  right: 10vw;
+  cursor: pointer;
+}
+
+.active-subheading {
+  cursor: default;
+}

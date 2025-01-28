@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import avatarImg from "../assets/stock/avatar-image.png";
+import avatarImg from "../assets/My-avatar.png";
 import "../styles/avatar.css";
 
 const Avatar = ({ page }) => {
