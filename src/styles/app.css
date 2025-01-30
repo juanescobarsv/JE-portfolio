@@ -9,11 +9,11 @@ body {
 }
 
 :root {
-  --purple: #540351;
-  --blue: #3627b1;
   --cyan: #25afce;
-  --transparent: #000000;
-  --radius-left: 3rem 0 0 3rem;
+  --yellow: #ffaa00;
+  --transparent: #00000000;
+  --blue: #3627b1;
+  --radius-left: 2rem 0 0 2rem;
   --radius-right: 0 3rem 3rem 0;
 }
 
