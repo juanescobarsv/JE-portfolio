@@ -2,61 +2,61 @@ const SkillsData = {
   1: [
     {
       title: "React JS",
-      level: 7,
+      level: 4,
     },
     {
       title: "JavaScript",
-      level: 6,
+      level: 3,
     },
     {
       title: "TypeScript",
-      level: 6,
+      level: 3,
     },
     {
       title: "CSS",
-      level: 7,
+      level: 4,
     },
     {
       title: "SASS",
-      level: 7,
+      level: 4,
     },
     {
       title: "HTML",
-      level: 6,
+      level: 3,
     },
     {
       title: "Figma",
-      level: 3,
+      level: 1,
     },
   ],
   2: [
     {
       title: "Problem Solving",
-      level: 8,
+      level: 4,
     },
     {
       title: "Effective Communication",
-      level: 9,
+      level: 5,
     },
     {
       title: "Adaptability",
-      level: 9,
+      level: 5,
     },
     {
       title: "Attention to Detail",
-      level: 9,
+      level: 5,
     },
     {
       title: "Teamwork and Collaboration",
-      level: 10,
+      level: 5,
     },
     {
       title: "Task Prioritization",
-      level: 10,
+      level: 5,
     },
     {
       title: "User-Centric Thinking",
-      level: 8,
+      level: 4,
     },
   ],
 };
