@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import projectsMenu from "./projectsMenu";
+import ProjectsMenu from "./projectsMenu";
 
 export default class Projects extends Component {
   render() {
     return (
       <>
-        <projectsMenu />
+        <ProjectsMenu />
       </>
     );
   }

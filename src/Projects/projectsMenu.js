@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import classNames from "classnames";
 import projectsData from "./projectsData";
-import "../styles/projectsMenu";
+import "../styles/projectsMenu.css";
 
-export default class projectsMenu extends Component {
+export default class ProjectsMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -37,7 +37,7 @@ export default class projectsMenu extends Component {
 
   render() {
     const { activeProject } = this.state;
-    const projectItem = [
+    const projectItems = [
       "Project 1: Dashboard",
       "Project 2: TBD",
       "Project 3: TBD",
