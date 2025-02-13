@@ -38,7 +38,7 @@ export default class ProjectsMenu extends Component {
   render() {
     const { activeProject } = this.state;
     const projectItems = [
-      "Project 1: Dashboard",
+      "Responsive Dashboard",
       "Project 2: TBD",
       "Project 3: TBD",
     ];

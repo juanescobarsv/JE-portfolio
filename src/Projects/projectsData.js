@@ -14,22 +14,22 @@ const projectsData = {
     demo: "https://juanescobarsv.github.io/responsive-dashboard/",
   },
   2: {
-    title: "Responsive Dashboard",
+    title: "TBD 2",
     image: projectOne,
     description: (
       <>
-        <p>Fintech company example Dashboard page with Light/Dark Theme</p>
+        <p>TBD 2</p>
       </>
     ),
     github: "https://github.com/juanescobarsv/responsive-dashboard",
     demo: "https://juanescobarsv.github.io/responsive-dashboard/",
   },
   3: {
-    title: "Responsive Dashboard",
+    title: "TBD 3",
     image: projectOne,
     description: (
       <>
-        <p>Fintech company example Dashboard page with Light/Dark Theme</p>
+        <p>TBD 3</p>
       </>
     ),
     github: "https://github.com/juanescobarsv/responsive-dashboard",
