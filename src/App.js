@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Nav from "./nav/nav.js";
-import About from "./About/about.js";
-import Skills from "./Skills/skills.js";
-import Projects from "./Projects/projects.js";
-import Contact from "./Contact/contact.js";
+import Nav from "./nav/Nav.js";
+import About from "./About/About.js";
+import Skills from "./Skills/Skills.js";
+import Projects from "./Projects/Projects.js";
+import Contact from "./Contact/Contact.js";
 import "./styles/app.css";
-import Background from "./Background/background.js";
-import CV from "./CV/cv.js";
+import Background from "./Background/Background.js";
+import CV from "./CV/CV.js";
 
 // import { library } from "@fortawesome/fontawesome-svg-core";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
