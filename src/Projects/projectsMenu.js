@@ -24,11 +24,11 @@ export default class ProjectsMenu extends Component {
         <img src={project.image} alt={project.title}></img>
         <div>{project.description}</div>
         <div className="link-container">
-          <a href={project.github} target="_blank" rel="noopener noreferrer">
-            GITHUB
-          </a>
           <a href={project.demo} target="_blank" rel="noopener noreferrer">
             DEMO
+          </a>
+          <a href={project.code} target="_blank" rel="noopener noreferrer">
+            CODE
           </a>
         </div>
       </div>
@@ -39,8 +39,8 @@ export default class ProjectsMenu extends Component {
     const { activeProject } = this.state;
     const projectItems = [
       "Responsive Dashboard",
-      "Project 2: TBD",
-      "Project 3: TBD",
+      // "Project 2: TBD",
+      // "Project 3: TBD",
     ];
 
     return (

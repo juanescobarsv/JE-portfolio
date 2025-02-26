@@ -28,6 +28,7 @@ export default function ContactMenu() {
     }
     setIsLoading(true);
     const { name, email, message } = formData;
+
     const sanitizedData = {
       name: "Name: " + DOMPurify.sanitize(name),
       email: "Email: " + DOMPurify.sanitize(email),
@@ -39,15 +40,16 @@ export default function ContactMenu() {
     const userID = process.env.REACT_APP_EMAILJS_USER_ID;
 
     emailjs
-      .send(serviceID, templateID, userID, sanitizedData)
+      .send(serviceID, templateID, sanitizedData, userID)
+
       .then((response) => {
-        console.log("Contact email sent succesfully!", response.text);
+        console.log("Email is sent successfully!", response.text);
         setFormData(initialState);
         setErrors({});
-        setIsSent(false);
+        setIsSent(true);
       })
       .catch((error) => {
-        console.error("Contact email sending failed", error);
+        console.error("Email sending failed", error);
       })
       .finally(() => {
         setIsLoading(false);

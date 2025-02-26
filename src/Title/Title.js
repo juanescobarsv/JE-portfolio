@@ -9,7 +9,7 @@ const CV = () => {
         <span id="cv_lines_thick"></span>
         <span id="cv_lines_thin"></span>
       </div>
-      <h2>Frontend Developer</h2>
+      <h2>Front-end Developer</h2>
     </div>
   );
 };

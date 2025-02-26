@@ -7,7 +7,7 @@ import Projects from "./Projects/Projects.js";
 import Contact from "./Contact/Contact.js";
 import "./styles/app.css";
 import Background from "./Background/Background.js";
-import CV from "./CV/CV.js";
+import CV from "./Title/Title.js";
 
 // import { library } from "@fortawesome/fontawesome-svg-core";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

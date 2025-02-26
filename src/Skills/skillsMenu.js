@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "../styles/skillsMenu.css";
 import classNames from "classnames";
 import SkillsData from "./skillsData";
-import frontEndIcon from "../assets/stock/eagle-emblem.png";
-import softSkillsIcon from "../assets/stock/hawk-emblem.png";
+import frontEndIcon from "../assets/cube-solid.png";
+import softSkillsIcon from "../assets/diamond-solid.png";
 
 export default class SkillsMenu extends Component {
   constructor(props) {

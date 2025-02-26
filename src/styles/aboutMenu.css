@@ -16,14 +16,43 @@
   cursor: pointer;
 }
 
+.item.active {
+  background: linear-gradient(90deg, var(--transparent), var(--cyan) 50%);
+  border-radius: var(--radius-right);
+}
+
 .title {
   font-size: 1rem;
   padding-right: 2.5rem;
 }
 
+p,
+li {
+  font-size: 0.9rem;
+}
+
+li {
+  font-size: 0.9rem;
+}
+
 .item.active .title {
   font-size: 1.5rem;
 }
+
+/* .item.active:nth-child(1) {
+  background: linear-gradient(90deg, var(--transparent), var(--cyan) 50%);
+  border-radius: var(--radius-right);
+}
+
+.item.active:nth-child(2) {
+  background: linear-gradient(90deg, var(--transparent), var(--yellow) 50%);
+  border-radius: var(--radius-right);
+}
+
+.item.active:nth-child(3) {
+  background: linear-gradient(90deg, var(--transparent), var(--cyan) 50%);
+  border-radius: var(--radius-right);
+} */
 
 .sub-container {
   width: 20rem;
@@ -39,22 +68,18 @@
   cursor: default;
 }
 
-.item.active:nth-child(1) {
-  background: linear-gradient(90deg, var(--transparent), var(--cyan) 50%);
-  border-radius: var(--radius-right);
+.sub-container .active-subheading h3 {
+  border-radius: var(--radius-left);
+  background: linear-gradient(90deg, var(--yellow), var(--transparent) 90%);
 }
 
-.item.active:nth-child(2) {
-  background: linear-gradient(90deg, var(--transparent), var(--yellow) 50%);
-  border-radius: var(--radius-right);
+.sub-container h3 {
+  position: relative;
+  margin: 0.2rem 0;
+  padding: 0.5rem 0 0.5rem 1rem;
 }
 
-.item.active:nth-child(3) {
-  background: linear-gradient(90deg, var(--transparent), var(--cyan) 50%);
-  border-radius: var(--radius-right);
-}
-
-.sub-container-1.active-subheading h3,
+/* .sub-container-1.active-subheading h3,
 .sub-container-2.active-subheading h3,
 .sub-container-3.active-subheading h3 {
   border-radius: var(--radius-left);
@@ -70,7 +95,15 @@
 
 .sub-container-3.active-subheading h3 {
   background: linear-gradient(90deg, var(--yellow), var(--transparent) 90%);
-}
+} 
+
+.sub-container-1 h3,
+.sub-container-2 h3,
+.sub-container-3 h3 {
+  position: relative;
+  margin: 0.2rem 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+} */
 
 .item.active {
   position: relative;
@@ -96,14 +129,6 @@
 .icon {
   width: 3rem;
   height: 3rem;
-}
-
-.sub-container-1 h3,
-.sub-container-2 h3,
-.sub-container-3 h3 {
-  position: relative;
-  margin: 0.2rem 0;
-  padding: 0.5rem 0 0.5rem 1rem;
 }
 
 @media (max-width: 700px) {

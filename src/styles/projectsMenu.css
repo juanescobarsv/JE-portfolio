@@ -36,7 +36,11 @@
   cursor: default;
 }
 
-.project-item.activeProject:nth-child(1) {
+.project-item.activeProject {
+  background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
+}
+
+/* .project-item.activeProject:nth-child(1) {
   background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
 }
 
@@ -46,7 +50,7 @@
 
 .project-item.activeProject:nth-child(3) {
   background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
-}
+} */
 
 .project-sub-container {
   width: 80%;
@@ -58,7 +62,7 @@
 
 .project-sub-container h3 {
   position: relative;
-  margin: 0;
+  margin: 1;
 }
 
 .project-sub-container img {
