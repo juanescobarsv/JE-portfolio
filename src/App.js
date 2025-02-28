@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./nav/Nav.js";
-import About from "./About/about.js";
+import About from "./About/About.js";
 import Skills from "./Skills/Skills.js";
 import Projects from "./Projects/Projects.js";
 import Contact from "./Contact/Contact.js";

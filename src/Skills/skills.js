@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Avatar from "../Avatar/avatar.js";
+import Avatar from "../Avatar/Avatar.js";
 import SkillsMenu from "./skillsMenu.js";
 
 export default class Skills extends Component {
