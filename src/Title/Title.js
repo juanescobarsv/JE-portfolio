@@ -1,17 +1,17 @@
 import React from "react";
-import "../styles/cv.css";
+import "../styles/title.css";
 
-const CV = () => {
+const Title = () => {
   return (
-    <div id="cv">
+    <div id="t">
       <h1>Juan Escobar</h1>
-      <div id="cv_lines">
-        <span id="cv_lines_thick"></span>
-        <span id="cv_lines_thin"></span>
+      <div id="title_lines">
+        <span id="title_lines_thick"></span>
+        <span id="title_lines_thin"></span>
       </div>
       <h2>Front-end Developer</h2>
     </div>
   );
 };
 
-export default CV;
+export default Title;

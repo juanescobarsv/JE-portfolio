@@ -1,4 +1,4 @@
-#cv {
+#title {
   width: 15rem;
   height: 4rem;
   position: fixed;
@@ -19,12 +19,12 @@ h2 {
   font-size: 1rem;
 }
 
-#cv_lines {
+#title_lines {
   display: flex;
   align-items: center;
 }
 
-#cv_lines_thick {
+#title_lines_thick {
   display: block;
   top: 0;
   left: 0;
@@ -33,7 +33,7 @@ h2 {
   width: 8rem;
 }
 
-#cv_lines_thin {
+#title_lines_thin {
   display: block;
   top: 0;
   left: 0;
@@ -43,7 +43,7 @@ h2 {
 }
 
 @media (max-width: 1100px) {
-  #cv {
+  #title {
     left: 50%;
     transform: translateX(-50%);
     width: 8rem;
